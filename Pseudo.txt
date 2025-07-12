@@ -1,0 +1,19 @@
+START
+
+INPUT student_score
+
+IF student_score >= 90 THEN
+    grade ← "A"
+ELSE IF student_score >= 80 THEN
+    grade ← "B"
+ELSE IF student_score >= 70 THEN
+    grade ← "C"
+ELSE IF student_score >= 60 THEN
+    grade ← "D"
+ELSE
+    grade ← "F"
+END IF
+
+OUTPUT "Student Grade: " + grade
+
+END
